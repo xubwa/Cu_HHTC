@@ -1,0 +1,11 @@
+%chk=ketone.chk
+%mem=10gb
+%nprocshared=28
+#p wb97xd def2svp scf=xqc stable=opt scrf=(smd, solvent=2-propanol)
+
+[No Title]
+
+2 2 
+  Co  0.0 0.0 0.0
+
+

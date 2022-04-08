@@ -1,0 +1,11 @@
+%chk=ketone.chk
+%mem=10gb
+%nprocshared=4
+#p wb97xd def2svp scf=qc stable=opt scrf=(smd, solvent=2-propanol) nosymm
+
+[No Title]
+
+2 3 
+  Ni  0.0 0.0 0.0
+
+
